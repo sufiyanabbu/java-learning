@@ -1,9 +1,19 @@
+import java.util.Scanner;
+
 class Student {
     public static void main(String[] args) {
-        System.out.println("Java is working!");
-    
-if (20 > 18) {
-  System.out.println("20 is greater than 18");
-System.out.println("condition: True");
 
-}}}
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter your age: ");
+        int age = sc.nextInt();
+
+        if (age >= 18) {
+            System.out.println("Eligible to vote");
+        } else {
+            System.out.println("Not eligible to vote");
+        }
+
+        sc.close();
+    }
+}
