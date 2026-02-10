@@ -4,6 +4,32 @@ import java.util.Scanner;
 class Prac1{
 public static void main(String[] args) {
     Scanner Scanner = new Scanner(System.in);
+
+
+
+// print if a number is prime or not 
+
+Scanner scanner = new Scanner(System.in);
+
+System.out.print("enter a number: ");
+int num= scanner.nextInt();
+int count=0;
+// num = 10
+for(int i = 1;i<=num;i++){
+    if(num%i==0){
+        count++;
+    }
+}
+    if(count==2){
+    System.out.println("prime");}
+else {
+        System.out.println("not prime");
+    }
+}
+}
+
+
+//driven prog
     System.out.println("enter 1 to start the program");
     System.out.println("enter 0 to end the program");
     System.out.print("==> ");
