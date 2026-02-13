@@ -22,6 +22,51 @@ public static void main(String[] args) {
     }
 }}
 
+
+//practice functions and methods
+
+//
+//class  Prac1{
+//    public static void Addition(int a, int b){
+//        int sum = a+b;
+//        System.out.println(sum);
+//    }
+//    public static void my_Name(String name){
+//        System.out.println(name);
+//    }
+//
+//    public static void multiplay(int x, int y){
+//        int off = x * y;
+//        System.out.println(off);
+//    }
+//    public static void main(String[] args) {
+//        Scanner sc=new Scanner(System.in);
+//        System.out.println("enter a: ");
+//        int a = sc.nextInt();
+//        System.out.println("enter b: " );
+//        int b = sc.nextInt();
+//
+//        Addition(a,b);
+//        System.out.println("enter you name : ");
+//        String name = sc.next();
+//        my_Name(name);
+//
+//
+//        System.out.println("enter x : ");
+//        int x = sc.nextInt();
+//        System.out.println("enter y : ");
+//        int y = sc.nextInt();
+//        multiplay(x,y);
+//
+//    }
+//}
+
+
+
+
+
+
+
 //    int n = 5;
 //    int i = 1;
 //    int m = 5;
